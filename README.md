@@ -31,58 +31,6 @@ u --> AVA
 @enduml
 ```
 
-### Maquettes
-
-A modifier/compléter...
-
-```plantuml
-@startsalt
-<style>
-header {
-  TextAlignement right
-  BackGroundColor gray
-  FontColor white
-}
-</style>
-header {- Alice@aol.fr | [Se déconnecter] }
-{
-{^Mes groupes
-**Ceux dont je suis membre**
-* Ensimag
-* Grenoble INP
-* <b>Club gaming
-----
-**Ceux que j'administre**
-* Club Gaming
-* Running
-"<i>nom du nouveau groupe" 
- [Créer]
-}|
-{^"Discussion sur le groupe <b>Club Gaming"
-{SI
-  [Salut , ca va? ] | Charlie
-  [Super, et toi?] | Asimov
-  [On se fait un truc] | Asimov
-  [Une idée? ] | Charlie
-  . | [Hello, oui]
-  ----|----
-}
-{+ "Une partie de LOL après?" | [Envoyer ] }
-}
-}
-@endsalt
-```
-
-### Captures d'écran
-
-A compléter
-
-### API mise en place
-
-Donner le lien vers la documentation swagger et/ou faire un tableau récapitulant l'API
-
-A compléter
-
 ## Architecture du code
 
 ### FrontEnd
@@ -107,8 +55,6 @@ Le code source du frontend est divisé en 4 dossiers principals
 ### Backend
 
 #### Schéma de votre base de donnée
-
-A modifier/compléter...
 
 ```plantuml
 class User{
